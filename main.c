@@ -11,6 +11,7 @@ main() {
 	printf("b = ");
 	scanf_s("%d", &b);
 	printf("Сумма = %d\n", a + b);
+	printf("Умноджение = %d\n", a * b);
 	printf("Деление A/B  = %d\n", a / b);
 	printf("Деление B/A = %d\n", b / a);
 	if (a > b) {
