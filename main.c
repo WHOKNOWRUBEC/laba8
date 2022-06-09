@@ -10,4 +10,5 @@ main() {
 	scanf_s("%d", &a);
 	printf("b = ");
 	scanf_s("%d", &b);
+	printf("Сумма = %d\n", a + b);
 }
