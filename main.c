@@ -13,4 +13,9 @@ main() {
 	printf("Сумма = %d\n", a + b);
 	printf("Деление A/B  = %d\n", a / b);
 	printf("Деление B/A = %d\n", b / a);
+	if (a > b) {
+		printf("Разность = %d\n", a - b);
+	}
+	else {
+		printf("Разность = %d\n", b - a);
 }
