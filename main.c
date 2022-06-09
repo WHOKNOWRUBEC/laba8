@@ -2,4 +2,12 @@
 #include<locale.h>
 
 main() {
+  setlocale(LC_ALL, "Rus");
+
+	int a, b;
+
+	printf("a = ");
+	scanf_s("%d", &a);
+	printf("b = ");
+	scanf_s("%d", &b);
 }
